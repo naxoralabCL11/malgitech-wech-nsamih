@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لعبة هديل</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <div id="quiz">
+            <h2 id="question">السؤال يظهر هنا</h2>
+            <div id="options"></div>
+        </div>
+        <div id="result" class="hide">
+            <p id="feedback"></p>
+            <button id="next-btn">السؤال التالي</button>
+        </div>
+        <div id="final-screen" class="hide">
+            <h1 class="glow-text">هديل..</h1>
+            <p>هاد السيت درتو على جالك باش نقولك بلي بلا بيك الصماطة، وراكِ دايماً في بالي.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
